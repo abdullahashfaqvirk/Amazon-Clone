@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    height: 60px;
+    color: white;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* 1. Logo Field */
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("../images/logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    cursor: pointer;
+}
+
+/* 2. Address Field */
+.add-msg {
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 15px;
+}
+
+.add-fixed {
+    font-size: 0.85rem;
+    margin-left: 3px;
+    font-weight: 700;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* 3. Search Field */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 640px;
+    border-radius: 7px;
+    border: 2.5px solid transparent;
+}
+
+.nav-search:hover {
+    border-color: #ff8a04;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 0.95rem;
+    border: none;
+    padding-left: 8px;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+    background-color: #febd69;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+}
+
+/* 4. Language Field */
+.nav-lang {
+    cursor: pointer;
+}
+
+.flag-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/usa.png");
+    background-size: cover;
+}
+
+/* 5. Account & Order Returns Field */
+.secondary-border {
+    padding: 10px 5px 6px 5px;
+    border: 1.5px solid transparent;
+}
+
+.secondary-border:hover {
+    cursor: pointer;
+    border-color: white;
+}
+
+span {
+    font-size: 0.75rem;
+}
+
+.nav-details {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* 6. Cart Field */
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+/* Panel */
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.panel-options {
+    width: 75%;
+    font-size: 0.85rem;
+}
+
+.panel-options p {
+    display: inline;
+    padding: 8px 9px 8px 9px;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
