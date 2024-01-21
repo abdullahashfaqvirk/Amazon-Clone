@@ -274,3 +274,100 @@ span {
 #box8 {
     background-image: url('../images/box8.jpg');
 }
+
+/* Footer */
+
+footer {
+    margin-top: 20px;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.foot-panel1:hover {
+    cursor: pointer;
+    background-color: rgba(55, 71, 90, 0.95);
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+ul a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ul p {
+    font-weight: 550;
+    margin: 40px 0px 14px 0px;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid #8b8b8b;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-plus {
+    width: 100px;
+    cursor: pointer;
+}
+
+.foot-lang {
+    padding: 8px 14px 8px 12px;
+    border: 1px solid #dddddd;
+    color: #dddddd;
+    cursor: pointer;
+    font-size: 0.85rem;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+.foot-lang i {
+    margin-right: 08px;
+    font-size: 0.95rem;
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.pages {
+    padding: 20px 0px 10px;
+}
+
+.pages a {
+    margin-right: 10px;
+}
+
+.pages a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
